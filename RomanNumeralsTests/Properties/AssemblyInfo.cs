@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("RomanNumeralsExercise")]
+[assembly: AssemblyTitle("RomanNumeralsExerciseTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("RomanNumeralsExercise")]
+[assembly: AssemblyProduct("RomanNumeralsExerciseTests")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("55d32f6a-e73f-4454-a965-da69c953e88d")]
+[assembly: Guid("d49d3866-bc23-46ab-8678-e9d7e6d9ed97")]
 
 // Version information for an assembly consists of the following four values:
 //
