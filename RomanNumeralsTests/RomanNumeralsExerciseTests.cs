@@ -29,5 +29,17 @@ namespace RomanNumeralsTests
             var actual = romanNumerals.Transform(3);
             Assert.That(actual, Is.EqualTo("III"));
         }
+        
+        [Ignore]
+        [Test]
+        public void ShouldReturnIVWhenGivenFour()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(4);
+            Assert.That(actual, Is.EqualTo("IV"));
+        }
+
+
+
     }
 }
