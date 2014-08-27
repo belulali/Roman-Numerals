@@ -1,15 +1,23 @@
 ﻿
+using System.Collections.Generic;
+
 namespace RomanNumerals
 {
     public class RomanNumeralsExercise
     {
-        public string Transform(int number)
+        private Dictionary<int, string> _romanNumbers = new Dictionary<int, string>()
         {
-            if (number == 1)
-            {
-                return "I";
-            }
-            else if(number == 2)
+            {1, "I"},
+            {5, "V"},
+        };
+
+     
+        public string Transform(int key)
+        {
+            if (_romanNumbers.ContainsKey(key))
+                return _romanNumbers[key];
+            
+            if(key == 2)
             {
                 return "II";
             }
