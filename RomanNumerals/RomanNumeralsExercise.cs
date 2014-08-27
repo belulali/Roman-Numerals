@@ -9,9 +9,13 @@ namespace RomanNumerals
             {
                 return "I";
             }
-            else
+            else if(number == 2)
             {
                 return "II";
+            }
+            else
+            {
+                return "III";
             }
         }
     }
