@@ -10,16 +10,16 @@ namespace RomanNumeralsTests
         public void ShouldReturnIWhenGivenOne()
         {
             var romanNumerals = new RomanNumeralsExercise();
-            var expected = romanNumerals.Transform(1);
-            Assert.That("I", Is.EqualTo(expected));
+            var actual = romanNumerals.Transform(1);
+            Assert.That(actual, Is.EqualTo("I"));
         }
 
         [Test]
         public void ShouldReturnIIWhenGivenTwo()
         {
             var romanNumerals = new RomanNumeralsExercise();
-            var expected = romanNumerals.Transform(2);
-            Assert.That("II", Is.EqualTo(expected));
+            var actual = romanNumerals.Transform(2);
+            Assert.That(actual, Is.EqualTo("II"));
         }
     }
 }
