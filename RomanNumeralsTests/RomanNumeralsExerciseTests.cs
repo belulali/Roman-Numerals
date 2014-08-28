@@ -47,6 +47,16 @@ namespace RomanNumeralsTests
             Assert.That(actual, Is.EqualTo("V"));
         }
 
+        [Test]
+        public void ShouldReturnXWhenGivenTen()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(10);
+            Assert.That(actual, Is.EqualTo("X"));
+        }
+
+
+
 
     }
 }
