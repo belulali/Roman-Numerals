@@ -71,6 +71,22 @@ namespace RomanNumeralsTests
             Assert.That(actual, Is.EqualTo("C"));
         }
 
+        [Test]
+        public void ShouldReturnDWhenGivenFiveHundred()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(500);
+            Assert.That(actual, Is.EqualTo("D"));
+        }
+
+        [Test]
+        public void ShouldReturnMWhenGivenOneThousand()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(1000);
+            Assert.That(actual, Is.EqualTo("M"));
+        }
+
 
 
 
