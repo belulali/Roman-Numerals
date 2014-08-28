@@ -11,6 +11,7 @@ namespace RomanNumerals
             {5, "V"},
             {10, "X"},
             {50, "L"},
+            {100, "C"},
         };
 
      

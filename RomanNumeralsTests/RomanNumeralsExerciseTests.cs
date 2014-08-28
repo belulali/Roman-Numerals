@@ -63,6 +63,14 @@ namespace RomanNumeralsTests
             Assert.That(actual, Is.EqualTo("L"));
         }
 
+        [Test]
+        public void ShouldReturnCWhenGivenOneHundred()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(100);
+            Assert.That(actual, Is.EqualTo("C"));
+        }
+
 
 
 
