@@ -55,6 +55,15 @@ namespace RomanNumeralsTests
             Assert.That(actual, Is.EqualTo("X"));
         }
 
+        [Test]
+        public void ShouldReturnLWhenGivenFifty()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(50);
+            Assert.That(actual, Is.EqualTo("L"));
+        }
+
+
 
 
 
