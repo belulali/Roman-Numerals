@@ -48,6 +48,14 @@ namespace RomanNumeralsTests
         }
 
         [Test]
+        public void ShouldReturnVIWhenGivenSix()
+        {
+            var romanNumerals = new RomanNumeralsExercise();
+            var actual = romanNumerals.Transform(6);
+            Assert.That(actual, Is.EqualTo("VI"));
+        }
+
+        [Test]
         public void ShouldReturnXWhenGivenTen()
         {
             var romanNumerals = new RomanNumeralsExercise();
