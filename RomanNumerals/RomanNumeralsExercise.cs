@@ -22,10 +22,6 @@ namespace RomanNumerals
             if (_romanNumbers.ContainsKey(key))
                 return _romanNumbers[key];
             
-            if(key == 2)
-            {
-                return "II";
-            }
             else
             {
                 var finalRomanNumber = "";
